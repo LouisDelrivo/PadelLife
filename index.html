@@ -7,7 +7,7 @@
 <meta name="description" content="PadelLife.fr — Le spécialiste français du padel. Raquettes, chaussures, accessoires. Conseil d'expert, essai à domicile 7 jours.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<style>
+<style>h
 :root{
   --black:#0a0a0a;--dark:#111;--dark2:#1a1a1a;--dark3:#222;
   --white:#fff;--off:#f7f7f7;--grey:#888;--grey2:#444;--grey3:#ccc;
@@ -26,7 +26,7 @@ img{display:block;max-width:100%}
 ::selection{background:var(--green);color:var(--white)}
 
 /* ═══ ANNOUNCEMENT BAR ═══ */
-.announce{background:var(--green);color:var(--white);text-align:center;padding:8px 20px;font-size:11px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;position:relative;z-index:99}
+.announce{background:var(--green);color:var(--white);text-align:center;padding:8px 20px;font-size:11px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;position:fixed;top:64px;left:0;right:0;z-index:99}
 
 /* ═══ HEADER ═══ */
 .hd{position:fixed;top:0;left:0;right:0;z-index:100;transition:background .3s var(--ease),backdrop-filter .3s}
@@ -603,7 +603,6 @@ const P=[
   {id:101,n:"Babolat Movea 2",b:"Babolat",p:99,op:null,cat:"Chaussures",img:"https://padellife.dk/cdn/shop/files/BA3A0S25B571_1102_MOVEA_701.jpg?v=1750913002&width=500",r:4.6,rv:234,bg:"Top vente",bc:"pb-top",stk:34,sold:112},
   {id:102,n:"Babolat Jet Premura 3",b:"Babolat",p:139,op:null,cat:"Chaussures",img:"https://padellife.dk/cdn/shop/files/Produktbillede1080x1080_Padellife-2026-02-17T112242.573.jpg?v=1771345005&width=500",r:4.8,rv:89,bg:null,stk:11,sold:45},
   {id:103,n:"Babolat Jet Viva",b:"Babolat",p:119,op:null,cat:"Chaussures",img:"https://padellife.dk/cdn/shop/files/1080x1080_90_0bc3f90a-d4aa-47d3-b482-f401ac4e0cd4.jpg?v=1771327490&width=500",r:4.5,rv:67,bg:null,stk:16,sold:28},
-  {id:104,n:"Wilson Rush Tour 5",b:"Wilson",p:109,op:129,cat:"Chaussures",img:"https://padellife.dk/cdn/shop/files/Produktbillede1080x1080_Padellife-2026-02-16T163132.872.jpg?v=1771344996&width=500",r:4.3,rv:45,bg:"Promo",bc:"pb-sale",stk:6,sold:21},
   // GRIPS
   {id:201,n:"Bullpadel Hesacore Grip",b:"Bullpadel",p:19.90,op:null,cat:"Grips",img:"https://padellife.dk/cdn/shop/files/BullpadelHesacoreGrip.jpg?v=1763282815&width=500",r:4.7,rv:312,bg:"Top vente",bc:"pb-top",stk:45,sold:201},
   {id:202,n:"Babolat Pro Tour Overgrip x3",b:"Babolat",p:7.50,op:9.90,cat:"Grips",img:"https://padellife.dk/cdn/shop/files/Produktbillede_1080x1080_Padellife_-_2026-02-03T124051.176.jpg?v=1770119065&width=500",r:4.4,rv:178,bg:null,stk:60,sold:156},
